@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="levels.fw-rjump" viewBox="0 0 800 600" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="800px" height="600px"
+>
+	<g id="Layer%201">
+		<path d="M 148 217 L 638 37 L 638 240 L 527 240 L 498 269 L 498 565 L 289 565 L 289 448 L 261 420 L 148 420 L 148 217 ZM -21 -53 L -21 691 L 834 691 L 834 -53 L -21 -53 Z" stroke="#000000" stroke-width="1" fill="none"/>
+		<path d="M 269 555 L 288 548 L 498 548 L 519 555 " stroke="#ff0000" stroke-width="1" fill="none"/>
+		<rect id="door_-key_value-" x="572" y="201" width="28" height="38" stroke="#ffffff00" stroke-width="1" fill="#d93600"/>
+		<rect id="spawn" x="182" y="388" width="24" height="24" fill="#ff8000"/>
+	</g>
+</svg>

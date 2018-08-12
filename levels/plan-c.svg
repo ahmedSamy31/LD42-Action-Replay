@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="levels.fw-shots%20well%20planned" viewBox="0 0 800 600" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="800px" height="600px"
+>
+	<g id="Layer%201">
+		<rect id="spawn" x="181" y="475" width="24" height="24" fill="#ff8000"/>
+		<rect id="door_-key_value-" x="411" y="517" width="28" height="38" stroke="#ffffff00" stroke-width="1" fill="#d93600"/>
+		<rect id="key_-id_3-" x="329" y="165" width="18" height="18" fill="#ff8000"/>
+		<rect id="key_-id_2-" x="238" y="332" width="18" height="18" fill="#ff8000"/>
+		<rect id="key_-id_1-" x="73" y="81" width="18" height="18" fill="#ff8000"/>
+		<rect id="key" x="497" y="165" width="18" height="18" fill="#ff8000"/>
+		<rect id="box_-hits_2-" x="365" y="442.7284" width="120" height="18.2716" fill="#ff0000"/>
+		<rect id="box_-hits_4-" x="365" y="421" width="120" height="18.2716" fill="#ff0000"/>
+		<rect id="box_-hits_1-" x="630" y="355" width="60" height="60" fill="#ff0000"/>
+		<path d="M 115 163 C 115 163 109.5 157.5 90 138 C 70.5 118.5 95 98 95 98 C 95 98 115.5 74.5 135 94 C 154.5 113.5 160 119 160 119 L 115 163 Z" stroke="#000000" stroke-width="1" fill="none"/>
+		<path d="M 151 274 L 151 345 L 194 388 L 285 388 L 285 361 C 235.3333 383.3333 164.6667 310.6667 151 274 Z" stroke="#000000" stroke-width="1" fill="none"/>
+		<path d="M -32 563 L -32 648 L 917 648 L 917 556 L 854 556 L 854 -26 L 707 -26 L 707 -19 L 624 -19 L 624 -45 L 424 -45 L 224 -45 L 224 -43 L -48 -43 L -48 563 L -32 563 ZM 365 428 L 344 449 L 344 556 L 306 556 L 265 515 L 96 515 L 96 184 L 64 152 C 31.5 119.5 74 78 74 78 C 74 78 116.5 36.5 148 68 L 224 144 L 305 225 L 343.4969 225 L 381.2327 187.3256 C 368.6541 196.1163 346.0126 194.8605 346.0126 194.8605 C 251.673 194.8605 257.9622 106.9535 257.9622 106.9535 C 257.9622 106.9535 259.2201 29.093 348.5283 29.093 C 422.7421 29.093 424 104.4419 424 104.4419 C 424 104.4419 425.2579 29.093 499.4717 29.093 C 588.7798 29.093 590.0377 106.9535 590.0377 106.9535 C 590.0377 106.9535 596.327 194.8605 501.9874 194.8605 C 501.9874 194.8605 479.3459 196.1163 466.7673 187.3256 L 504.5031 225 L 543 225 L 624 144 L 624 143 L 707 143 L 707 415 L 613 415 L 613 556 L 505 556 L 505 449 L 484 428 L 484 556 L 365 556 L 365 428 Z" stroke="#000000" stroke-width="1" fill="none"/>
+		<path d="M 511 556 L 514 538 L 604 538 L 607 556 " stroke="#ff0000" stroke-width="1" fill="none"/>
+		<path d="M 707 339 L 689 336 L 689 150 L 707 147 " stroke="#ff0000" stroke-width="1" fill="none"/>
+		<rect id="key_-id_5-" x="651" y="389" width="18" height="18" fill="#ff8000"/>
+	</g>
+</svg>

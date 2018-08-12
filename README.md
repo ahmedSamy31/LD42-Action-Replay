@@ -1,2 +1,3 @@
-# LD42-Action-Replay
-A Javascript Canvas game about completing platform levels with a limited number of key press/releases.
+Game written in ES6. You should use a modern browser to play, because transpiling is for nerds.
+
+Server is written in C# and targets .NET Core. 

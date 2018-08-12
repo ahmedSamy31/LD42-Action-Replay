@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Action Replay</title>
+
+    <script src="lib/gl-matrix.js"></script>
+    <script src="lib/svg-path-parser.js"></script>
+
+    <script src="scripts/svgColParse.js"></script>
+    <script src="scripts/collider.js"></script>
+    <script src="scripts/quadTree.js"></script>
+    <script src="scripts/gameResource.js"></script>
+    <script src="scripts/replayapi.js"></script>
+
+    <script src="scripts/scenes/loadingScene.js"></script>
+
+    <script src="scripts/entities/player.js"></script>
+    <script src="scripts/entities/missile.js"></script>
+    <script src="scripts/entities/particles.js"></script>
+    <script src="scripts/entities/box.js"></script>
+    <script src="scripts/entities/key.js"></script>
+    <script src="scripts/entities/door.js"></script>
+
+    <script src="scripts/ui/transition.js"></script>
+    <script src="scripts/ui/common.js"></script>
+    <script src="scripts/ui/replayOverUI.js"></script>
+    <script src="scripts/ui/ingameUI.js"></script>
+
+    <script src="scripts/level.js"></script>
+    <script src="scripts/scenes/ingameScene.js"></script>
+
+    <script src="scripts/game.js"></script>
+
+    <style>
+    @font-face {
+        font-family: "Frankfurter";
+        src: url("font.ttf");
+    }
+
+    body {
+        font-family: "Frankfurter";
+    }
+    </style>
+    <style>
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-position: center center;
+    margin: 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -400px;
+}
+
+#game {
+    margin: -1px;
+    border: 1px #222222 solid;
+}
+
+#game:focus {
+    outline: none;
+}
+
+#name {
+    position: absolute;
+    margin-top: -2px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font: bold 16px Frankfurter;
+    color: white;
+    color: #222222;
+}
+
+#inst {
+    position: absolute;
+    margin-top: -20px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font: bold 15px Frankfurter;
+    color: white;
+    color: #222222;
+}
+
+a {
+    color: #777777;
+}
+
+</style>
+
+    <script> 
+        var instructions;
+        function loadedPage() {
+            instructions = document.getElementById('instructions');
+            instructions.onclick = instructionsClicked;
+        }
+
+        function instructionsClicked() {
+            instructions.style.display = "none";
+            window.game = new ActionReplayGame(document.getElementById('game'));
+        }
+    </script>
+
+</head>
+<body onload = "loadedPage()">
+    <div id = "container">
+        <div id = "center">
+            <div id="inst">
+                WASD to move. Mouse to shoot missiles. Pressing AND releasing buttons costs space!
+            </div>
+            <img src="intro.png" id="instructions" style="position:absolute; z-index:2">
+            <canvas width="800" height="600" id="game" tabindex="0"></canvas>
+            <div id="name">
+            Still setting up the replay leaderboard server on this production server. .NET is misbehaving :(
+            </div>
+        </div>
+    </div>
+</body>
+</html>

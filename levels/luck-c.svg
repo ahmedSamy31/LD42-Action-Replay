@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="levels.fw-tight" viewBox="0 0 800 600" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="800px" height="600px"
+>
+	<g id="Layer%201">
+		<rect id="spawn" x="193" y="483" width="24" height="24" fill="#ff8000"/>
+		<rect id="door_-key_value-" x="493" y="523" width="28" height="38" stroke="#ffffff00" stroke-width="1" fill="#d93600"/>
+		<rect id="key" x="216" y="116" width="18" height="18" fill="#ff8000"/>
+		<path d="M 265 562 L 268 544 L 460 544 L 463 562 " stroke="#ff0000" stroke-width="1" fill="none"/>
+		<path d="M 93 562 L 96 544 L 138 544 L 141 562 " stroke="#ff0000" stroke-width="1" fill="none"/>
+		<rect id="box_-hits_1-" x="481" y="440" width="74" height="74" fill="#ff0000"/>
+		<path d="M -58 -75 L -58 643 L 850 643 L 850 -75 L -58 -75 ZM 481 562 L 481 506 L 461 506 L 461 562 L 265 562 L 235 512 L 175 512 L 145 562 L 91 562 L 91 405 L 91 391 L 111 371 L 230 371 L 230 341 L 91 341 L 91 51 L 357 51 L 715 255 L 715 314.565 L 564 465 L 556 506 L 556 562 L 481 562 Z" stroke="#000000" stroke-width="1" fill="none"/>
+		<path d="M 225 152 L 216 169 L 476 309.44 L 476 434 L 499 414 L 499 300 L 225 152 Z" stroke="#000000" stroke-width="1" fill="none"/>
+	</g>
+</svg>

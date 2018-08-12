@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="levels.fw-locked%20Copy" viewBox="0 0 800 600" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="800px" height="600px"
+>
+	<g id="Layer%201">
+		<path d="M 188 15 L 514 15 L 666 63 L 666 279 L 412 279 L 412 586 L 362 586 L 322 566 L 282 566 L 242 586 L 188 586 L 188 429 L 188 15 ZM -58 -75 L -58 643 L 850 643 L 850 -75 L -58 -75 Z" stroke="#000000" stroke-width="1" fill="none"/>
+		<path d="M 211 301 L 314 301 L 314 331 L 211 331 L 211 301 Z" stroke="#000000" stroke-width="1" fill="none"/>
+		<rect id="spawn" x="290" y="537" width="24" height="24" fill="#ff8000"/>
+		<rect id="door_-key_value-" x="588" y="240" width="28" height="38" stroke="#ffffff00" stroke-width="1" fill="#d93600"/>
+		<rect id="key" x="254" y="277" width="18" height="18" fill="#ff8000"/>
+		<path d="M 362 586 L 365 568 L 407 568 L 410 586 " stroke="#ff0000" stroke-width="1" fill="none"/>
+		<path d="M 190 586 L 193 568 L 235 568 L 238 586 " stroke="#ff0000" stroke-width="1" fill="none"/>
+		<path d="M 207 15 L 210 33 L 510 33 L 513 15 " stroke="#ff0000" stroke-width="1" fill="none"/>
+		<path d="M 412 279 L 415 261 L 529 261 L 532 279 " stroke="#ff0000" stroke-width="1" fill="none"/>
+		<path d="M 188 249 L 206 252 L 206 558 L 188 561 " stroke="#ff0000" stroke-width="1" fill="none"/>
+		<path d="M 188 15 L 206 18 L 206 132 L 188 135 " stroke="#ff0000" stroke-width="1" fill="none"/>
+		<path d="M 412 279 L 394 282 L 394 558 L 412 561 " stroke="#ff0000" stroke-width="1" fill="none"/>
+	</g>
+</svg>

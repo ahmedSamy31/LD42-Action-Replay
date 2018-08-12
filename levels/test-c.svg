@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="testlevel.fw-Page%201" viewBox="0 0 1400 600" style="background-color:#ffffff" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="1400px" height="600px"
+>
+	<g id="Layer%201">
+		<path d="M 1094 413 L 1288 413 L 1288 444 L 1094 444 L 1094 413 Z" stroke="#000000" stroke-width="1" fill="none"/>
+		<path d="M 669 369 C 669 369 725 246 871 246 C 1017 246 1061 148 1061 148 L 1061 228 L 711 369 L 669 369 Z" stroke="#000000" stroke-width="1" fill="none"/>
+		<path d="M 1264 8 L 1264 199 L 1281 199 L 1281 8 L 1264 8 Z" stroke="#000000" stroke-width="1" fill="none"/>
+		<path d="M 677 355 C 651 391 459 524 319 418 C 179 312 203 227 203 227 L 175 226 L 172 462 L 204 530 L 326 562 L 452 562 L 535 520 L 620 563 L 667 564 L 669 610 L 146 610 L 146 209 L 217 209 C 217 209 199 334 325 407 C 451 480 598 423 686 342 L 677 355 Z" stroke="#000000" stroke-width="1" fill="none"/>
+		<path d="M 665 564 L 665 709 L 1335 709 L 1335 641.895 L 1418 629 L 1414 0 L 1399 0 L 1379 342 C 1380 396 1346 420 1370 454 C 1394 488 1360 557 1332 564 L 665 564 Z" stroke="#000000" stroke-width="1" fill="none"/>
+		<path d="M 1110 562 " stroke="#ffffff00" stroke-width="1" fill="none"/>
+		<path d="M 710 564 L 713 546 L 947 546 L 950 564 L 710 564 Z" stroke="#ff0000" stroke-width="1" fill="none"/>
+	</g>
+	<g id="entities">
+		<rect id="box_-hits_3-" x="161" y="167" width="40" height="40" fill="#8c2300"/>
+		<rect id="door_-key_value-" x="1177" y="374" width="28" height="38" stroke="#ffffff00" stroke-width="1" fill="#d93600"/>
+		<rect id="key_-id_2-" x="172" y="181" width="18" height="18" fill="#ff8000"/>
+		<rect id="key_-id_1-" x="380" y="534" width="18" height="18" fill="#ff8000"/>
+		<rect id="spawn" x="1030" y="32" width="24" height="24" fill="#ff8000"/>
+	</g>
+</svg>
