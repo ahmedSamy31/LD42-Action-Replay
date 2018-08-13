@@ -79,7 +79,7 @@ let LEVELS = [
         id: 9,
         internalName: "plan",
         name: "Shots Well Planned",
-        quota: 75,
+        quota: 81,
         nextid: 10,
     },
 
