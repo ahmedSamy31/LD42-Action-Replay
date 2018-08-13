@@ -63,7 +63,7 @@ class IngameScene {
 
         if (replay != null) {
             control = new RecordedControl(player, replay.d);
-            this.level.name = "Replay";
+            this.level.name = replay.name;
             player.name = replay.name;
         } else {
             control = new RecordingControl(player);
