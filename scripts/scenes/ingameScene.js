@@ -136,6 +136,7 @@ class IngameScene {
                 name: this.game.playerName,
                 size: myRecording.length,
                 d: myRecording,
+                levelid: this.level.id,
                 time: this.time,
             }
 

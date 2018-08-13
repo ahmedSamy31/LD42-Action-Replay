@@ -10,6 +10,7 @@ class ReplayAPI {
         DEBUG_REPLAY = JSON.parse(str);
         let xml = new XMLHttpRequest();
         xml.open("POST", SERVER_URL+"/upload");
+        xml.setRequestHeader('Content-Type', 'application/json')
         xml.responseType = "json";
         xml.onload = () => {
             callback(xml.response);
