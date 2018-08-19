@@ -60,8 +60,8 @@ class UIButton {
     getTruePosition() {
         let ctx = this.game.ctx;
         let canvas = ctx.canvas;
-        let trueWidth = canvas.width;
-        let trueHeight = canvas.height;
+        let trueWidth = canvas.width/canvas.scale;
+        let trueHeight = canvas.height/canvas.scale;
         let rect = this.rect;
         let alignVec = this.alignVec;
 
@@ -75,8 +75,8 @@ class UIButton {
 
     render(ctx) {
         let canvas = ctx.canvas;
-        let trueWidth = canvas.width;
-        let trueHeight = canvas.height;
+        let trueWidth = canvas.width/canvas.scale;
+        let trueHeight = canvas.height/canvas.scale;
         let rect = this.rect;
         let alignVec = this.alignVec;
 

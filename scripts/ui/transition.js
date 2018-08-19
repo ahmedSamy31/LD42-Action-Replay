@@ -20,9 +20,12 @@ class DiagTransition {
     render(ctx) {
         let canvas = ctx.canvas;
 
+        let trueWidth = canvas.width/canvas.scale;
+        let trueHeight = canvas.height/canvas.scale;
+
         let subdiv = 15;
 
-        let newWidth = canvas.width+canvas.height*0.5;
+        let newWidth = trueWidth+trueHeight*0.5;
         let segWidth = newWidth/subdiv;
 
         let overlap = 5;
@@ -53,8 +56,8 @@ class DiagTransition {
                 ctx.moveTo(lx, 0);
                 ctx.lineTo(rx, 0);
 
-                ctx.lineTo(rx-canvas.height/2, canvas.height);
-                ctx.lineTo(lx-canvas.height/2, canvas.height);
+                ctx.lineTo(rx-trueHeight/2, trueHeight);
+                ctx.lineTo(lx-trueHeight/2, trueHeight);
 
                 ctx.closePath();
 

@@ -136,8 +136,8 @@ class ReplayOverUI {
         let buttons = (this.replayView)?this.inReplayButtons:this.buttons;
 
         let canvas = ctx.canvas;
-        let trueWidth = canvas.width;
-        let trueHeight = canvas.height;
+        let trueWidth = canvas.width/canvas.scale;
+        let trueHeight = canvas.height/canvas.scale;
 
         if (!this.replayView) {
             ctx.fillStyle = "white";
@@ -163,14 +163,14 @@ class ReplayOverUI {
             ctx.fillStyle = "#202020";
             ctx.textBaseline = "hanging";
             ctx.textAlign = "center";
-            ctx.fillText(title, canvas.width/2, 25);
+            ctx.fillText(title, trueWidth/2, 25);
 
             ctx.font = "20px Frankfurter";
             ctx.fillStyle = "#202020";
-            ctx.fillText("Leaderboards (click to view replay)", canvas.width/2, 95);
+            ctx.fillText("Leaderboards (click to view replay)", trueWidth/2, 95);
 
             ctx.fillStyle = "#0059B2";
-            ctx.fillText(this.myReplay.size+" bytes", canvas.width/2, 10);
+            ctx.fillText(this.myReplay.size+" bytes", trueWidth/2, 10);
         }
 
         for (let i=0; i < buttons.length; i++) {

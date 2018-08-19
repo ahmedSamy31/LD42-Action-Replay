@@ -23,13 +23,15 @@ class IngameCamera {
     applyC(ctx) {
         ctx.save();
         let canvas = ctx.canvas;
-        this.size = [canvas.width, canvas.height];
+        let trueWidth = canvas.width/canvas.scale;
+        let trueHeight = canvas.height/canvas.scale;
+        this.size = [trueWidth, trueHeight];
 
-        ctx.translate(canvas.width/2, canvas.height/2);
+        ctx.translate(trueWidth/2, trueHeight/2);
         ctx.scale(this.scale, this.scale);
-        ctx.translate(canvas.width/-2, canvas.height/-2);
+        ctx.translate(trueWidth/-2, trueHeight/-2);
 
-        ctx.translate(-(this.position[0] - canvas.width/2), -(this.position[1] - canvas.height/2));
+        ctx.translate(-(this.position[0] - trueWidth/2), -(this.position[1] - trueHeight/2));
 
         ctx.rotate(-this.angle);
     }

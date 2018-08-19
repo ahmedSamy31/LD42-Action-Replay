@@ -29,8 +29,8 @@ class IngameUI {
 
     render(ctx) {
         let canvas = ctx.canvas;
-        let trueWidth = canvas.width;
-        let trueHeight = canvas.height;
+        let trueWidth = canvas.width/canvas.scale;
+        let trueHeight = canvas.height/canvas.scale;
 
         ctx.font = "16px Frankfurter";
 

@@ -16,16 +16,21 @@ class Input {
     }
 
     updateMousePos(evt) {
-        var el = this.canvas;
-        var _x = 0;
-        var _y = 0;
-        while( el && !isNaN(el.offsetLeft) && !isNaN(el.offsetTop) ) {
-            _x += el.offsetLeft;
-            _y += el.offsetTop;
-            el = el.offsetParent;
+        if (document.fullscreenElement != null || document.webkitFullscreenElement != null) {
+            this.mouseX = (evt.pageX)/this.canvas.scale;
+            this.mouseY = (evt.pageY)/this.canvas.scale;
+        } else {
+            var el = this.canvas;
+            var _x = 0;
+            var _y = 0;
+            while( el && !isNaN(el.offsetLeft) && !isNaN(el.offsetTop) ) {
+                _x += el.offsetLeft;
+                _y += el.offsetTop;
+                el = el.offsetParent;
+            }
+            this.mouseX = (evt.pageX - _x)/this.canvas.scale;
+            this.mouseY = (evt.pageY - _y)/this.canvas.scale;
         }
-        this.mouseX = evt.pageX - _x;
-        this.mouseY = evt.pageY - _y;
     }
 
     mouseDown(evt) {
@@ -216,6 +221,28 @@ class ActionReplayGame {
     tick() {
         this.behind += Date.now() - this.lastFrame;
         this.lastFrame = Date.now();
+
+        if (document.fullscreenElement != null || document.webkitFullscreenElement != null) {
+            if ((this.canvas.width != window.innerWidth) || (this.canvas.height != window.innerHeight)) {
+                this.canvas.width = window.innerWidth;
+                this.canvas.height = window.innerHeight;
+                this.fullscreened = true;
+                this.ctx.restore();
+                this.ctx.save();
+                this.canvas.scale = this.canvas.height/600;
+                this.ctx.scale(this.canvas.scale, this.canvas.scale);
+            }
+        } else {
+            if (this.fullscreened) {
+                this.canvas.width = 800;
+                this.canvas.height = 600;
+                this.fullscreened = false;
+                this.ctx.restore();
+                this.ctx.save();
+                this.canvas.scale = 1;
+                this.ctx.scale(1, 1);
+            }
+        }
 
         if (!this.lagMode) {
             var lagFrames = 0;

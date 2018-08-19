@@ -136,6 +136,14 @@ a {
                 }
             }
         }
+
+        function fullscreen() {
+            var elem = document.getElementById('game');
+            if (elem.requestFullScreen != null) elem.requestFullScreen();
+            else if (elem.webkitRequestFullScreen != null) elem.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
+            else if (elem.mozRequestFullScreen != null) elem.mozRequestFullScreen();
+            return false;
+        }
     </script>
 
 </head>
@@ -148,7 +156,7 @@ a {
             <img src="intro.png" id="instructions" style="position:absolute; z-index:2">
             <canvas width="800" height="600" id="game" tabindex="0"></canvas>
             <div id="name">
-            Twitter: <a href="https://twitter.com/riperiperi">riperiperi</a> - Made for the Ludum Dare 42 Compo
+            Twitter: <a href="https://twitter.com/riperiperi">riperiperi</a> - Made for the Ludum Dare 42 Compo - <a href="#" onclick="return fullscreen();">Click for Fullscreen</a>
             </div>
         </div>
     </div>

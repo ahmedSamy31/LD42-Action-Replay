@@ -8,6 +8,11 @@ let JUMP_BUTTON = 87;
 let ACTION2_BUTTON = 83;
 let LEFT_BUTTON = 65;
 let RIGHT_BUTTON = 68;
+
+let LEFT_ALT = 37;
+let RIGHT_ALT = 39;
+let JUMP_ALT = 38;
+
 let MAX_SPEED = 6;
 let MAX_AIR_SPEED = 3;
 let MAX_ROCKET_SPEED = 8;
@@ -58,10 +63,10 @@ class RecordingControl extends Control {
 
         this.oldButtons = this.buttons;
         this.buttons = [
-            input.keys[JUMP_BUTTON]?1:0,
+            (input.keys[JUMP_BUTTON] || input.keys[JUMP_ALT])?1:0,
             input.keys[ACTION2_BUTTON]?1:0,
-            input.keys[LEFT_BUTTON]?1:0,
-            input.keys[RIGHT_BUTTON]?1:0,
+            (input.keys[LEFT_BUTTON] || input.keys[LEFT_ALT])?1:0,
+            (input.keys[RIGHT_BUTTON] || input.keys[RIGHT_ALT])?1:0,
         ]
         let changed = false;
         for (let i=0; i<4; i++) {

@@ -33,6 +33,6 @@ class LoadingScene {
 
     updateProgress(pct) {
         this.pct = pct;
-        if (pct == 1) game.start();
+        if (pct == 1) this.game.start();
     }
 }
