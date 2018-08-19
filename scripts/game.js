@@ -16,7 +16,7 @@ class Input {
     }
 
     updateMousePos(evt) {
-        if (document.fullscreenElement != null || document.webkitFullscreenElement != null) {
+        if (document.fullscreenElement != null || document.webkitFullscreenElement != null || document.mozFullScreenElement != null) {
             this.mouseX = (evt.pageX)/this.canvas.scale;
             this.mouseY = (evt.pageY)/this.canvas.scale;
         } else {
@@ -222,7 +222,7 @@ class ActionReplayGame {
         this.behind += Date.now() - this.lastFrame;
         this.lastFrame = Date.now();
 
-        if (document.fullscreenElement != null || document.webkitFullscreenElement != null) {
+        if (document.fullscreenElement != null || document.webkitFullscreenElement != null || document.mozFullScreenElement != null) {
             if ((this.canvas.width != window.innerWidth) || (this.canvas.height != window.innerHeight)) {
                 this.canvas.width = window.innerWidth;
                 this.canvas.height = window.innerHeight;
