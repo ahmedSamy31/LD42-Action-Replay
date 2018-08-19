@@ -68,7 +68,7 @@ class ActionReplayGame {
         this.outGain.connect(this.ac.destination);
         this.canvas.scale = 1;
 
-        this.initScene(new LoadingScene());
+        this.initScene(new LoadingScene(this));
 
         //todo: put in a manifest
         let files = [
